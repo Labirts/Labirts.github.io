@@ -1,0 +1,573 @@
+
+@media screen and (max-width: 767px) {
+    
+    .container {
+        position: relative;
+        width: 90%; /* Ширина контейнера на мобильных устройствах */
+        margin: 0 auto;
+    }
+
+    .promo {
+        height: auto; /* Автоматическая высота блока promo */
+        background: url('img/bg/main_bg.jpg') center center/cover no-repeat;
+        padding: 20px 0; /* Уменьшаем вертикальные отступы */
+    }
+
+    .promo .promo_text {
+        font-size: 16px; /* Уменьшаем размер шрифта текста promo */
+        padding: 0 13px;
+        margin-top: 23px;
+        color: #ffffff;
+        font-weight: 300;
+        line-height: 28px;
+        font-family: "Roboto Light";
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .waiting_header, .finish_header {
+        margin-left: 0; /* Центрирование заголовков */
+        text-align: center; /* Центрирование текста заголовков */
+    }
+
+    .waiting_divider, .finish_divider {
+        margin-left: auto; /* Центрирование разделителей */
+        margin-right: auto;
+    }
+
+    .waiting_subheader {
+        margin-left: 0; /* Центрирование подзаголовка */
+        margin-top: 17px;
+        color:#4a4a4a;
+        font-family: Roboto;
+        font-size: 23px;
+        font-weight: 20px;
+        text-align: center; /* Центрирование текста подзаголовка */
+    }
+
+    .waiting_wrapper {
+        flex-direction: column; /* Изменение направления элементов */
+        align-items: center; /* Выравнивание по центру */
+        display: flex;
+        justify-content: space-between;
+        margin-top: 45px;
+    }
+
+    .waiting_item {
+        width: 90%; /* Ширина элементов списка */
+        margin-bottom: 30px; /* Добавление отступов между элементами */
+        text-align: center;
+    }
+
+    .waiting_img {
+        width: 100%; /* Ширина изображений */
+    }
+
+    .waiting_descr {
+        margin-top: 15px; /* Уменьшение отступа сверху для описания */
+        color: #4a4a4a;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 21px;
+    }
+
+    .finish_wrapper {
+        flex-wrap: wrap; /* Обертывание элементов при необходимости */
+        margin: 41px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .finish_item {
+        width: 45%; /* Ширина элементов списка */
+        margin-bottom: 30px; /* Добавление отступов между элементами */
+    }
+
+    .finish_round {
+        width: 80px; /* Размеры кругов с иконками */
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        background-color: #b4e2ff;
+        border-radius: 100%;
+    }
+
+    .finish_descr {
+        margin-top: 15px; /* Уменьшение отступа сверху для описания */
+        text-align: center;
+        color: #efefef;
+        font-family: Roboto;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+
+    .gift {
+        padding: 50px 0; /* Уменьшение вертикальных отступов */
+        background-color: #efefef;
+    }
+
+    .Rectangle {
+        margin: 30px auto; /* Центрирование элемента */
+        width: 154px;
+        height: 174px;
+    }
+
+    .gift_text {
+        font-size: 16px; /* Уменьшение размера шрифта */
+        width: 1161px;
+        height: 113px;
+        margin: 45px 0 51px;
+        font-family: Roboto;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: center; /* Центрирование текста */
+        color: #252525;
+    }
+
+    .gift_btn {
+        margin-top: 30px; /* Увеличение отступа сверху для кнопки */
+        display: block;
+        width: 313px;
+        height: 72px;
+        box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+        border: 4px solid rgba(0, 0, 0, 0.23);
+        background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+        color: #ffffff;
+        font-family: Roboto Condensed;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: uppercase;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .first_item {
+        text-align: center; /* Центрирование элемента */
+    }
+
+    .first_descr_10s {
+        margin-top: 10px; /* Уменьшение отступа сверху для текста */
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: center;
+        color: #299cbd;
+    }
+}
+
+/* Остальные стили для компьютеров и других устройств */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.promo {
+    height: 802px;
+    background: url('img/bg/main_bg.jpg') center center/cover no-repeat;
+    padding: 39px 0 62px 0;
+}
+
+.logo .logo_img {
+    display: block;
+    margin: 0 auto;
+}
+
+.logo .logo_text {
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 14px;
+}
+
+h1 {
+    margin-top: 53px;
+}
+
+.title {
+    color: #f9bf3b;
+    font-family: "Roboto - Black";
+    font-size: 41px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;   
+}
+
+h2.title {
+    margin-top: 30px;
+}
+
+.simple .title_big {
+    color: #ffffff;
+    font-family: "Roboto - Black";
+    font-size: 80px;
+    font-weight: 400;
+    text-transform: uppercase; 
+    text-align: center;
+    margin-top: 21px;
+}
+
+.promo .promo_text {
+    padding: 0 13px;
+    margin-top: 23px;
+    color: #ffffff;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 28px;
+    font-family: "Roboto Light";
+    font-weight: 300;
+    text-align: center;
+}
+
+.promo .promo_text span {
+    color:#f9bf3b;
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+}
+
+.promo .promo_btn {
+    display: block;
+    margin: 0px auto;
+    margin-top: 73px;
+    width: 313px;
+    height: 72px;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    border: 4px solid rgba(0, 0, 0, 0.23);
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+    color: #ffffff;
+    font-family: Roboto Condensed;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+
+.more {
+    margin-top: 73px;
+}
+
+.more .more_text {
+    color:#ffffff;
+    font-family: Roboto - Thin;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.more .more_img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 13px;
+}
+
+.waiting {
+    min-height: 604px;
+    background-color: #efefef;
+    padding: 85px 0 75px 0;
+}
+
+.waiting .waiting_header, .finish .finish_header {
+    color: #252525;
+    font-family: Roboto;
+    font-style: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+    text-align: center;
+}
+.finish .finish_header {
+    color:#fff;
+}
+
+.waiting .waiting_divider, .finish .finish_divider {
+    width: 217px;
+    height: 4px;
+    background-color: #f9bf3b;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+
+.waiting .waiting_subheader {
+    margin-top: 17px;
+    color:#4a4a4a;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: 20px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.waiting .waiting_wrapper .waiting_item {
+    width: 339px;
+    text-align: center;
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_img {
+    width: 100%;    
+}
+
+.waiting .waiting_wrapper .waiting_item .waiting_descr {
+    margin-top: 33px;
+    color: #4a4a4a;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 21px;
+}
+
+.my-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    height: 450px;
+}
+
+.my-flex-block {
+    width: 150px;
+    height: 150px;
+    margin: 0 50px;
+    background-color: red;
+    text-align: center;
+    color: #fff;
+}
+
+.optimization {
+    min-height: 550px;
+    padding: 102px 0 107px 0;
+}
+
+.optimization .optimization_header {
+    margin-left: 391px;
+    color: #299cbd;
+    font-family: "Roboto - Black";
+    font-size: 29px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.optimization .optimization_text {
+    margin-top: 25px;
+    margin-left: 391px;
+    color: #4a4a4a;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+    font-family: "Roboto - Light";
+    font-weight: 300;
+}
+
+.optimization .optimization_text span {
+    font-family: "Roboto - Bold";
+    font-weight: 700;
+}
+
+.optimization .optimization_img {
+    position: absolute;
+    top: 54px;
+    left: -240px;
+    z-index: -1;
+}
+
+.finish {
+    min-height: 447px;
+    padding: 86px 0 79px 0;
+    background: url('img/bg/second_bg.jpg') center center/cover no-repeat;
+}
+
+.finish .finish_wrapper {
+    margin: 41px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.finish .finish_wrapper .finish_item {
+    width: 204px;
+}
+
+.finish .finish_wrapper .finish_item .finish_round {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 115px;
+    height: 115px;
+    background-color: #b4e2ff;
+    border-radius: 100%;
+}
+
+.finish .finish_wrapper .finish_item .finish_descr {
+    margin-top: 25px;
+    text-align: center;
+    color: #efefef;
+    font-family: Roboto;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.gift {
+    padding: 88px 381px 88px 380px;
+    background-color: #efefef;
+}
+
+.Rectangle {
+    width: 154px;
+    height: 174px;
+    margin: 88px 503px 45px 504px;
+}
+
+.gift_text {
+    width: 1161px;
+    height: 113px;
+    margin: 45px 0 51px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.43;
+    letter-spacing: normal;
+    text-align: center;
+    color: #252525;
+}
+
+.gift_btn {
+    display: block;
+    margin: 68px auto;
+    margin-top: 73px;
+    width: 313px;
+    height: 72px;
+    box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+    border: 4px solid rgba(0, 0, 0, 0.23);
+    background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+    color: #ffffff;
+    font-family: Roboto Condensed;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+
+
+.first {
+    padding: 100px 0 52.5px;
+}
+
+.first_descr {
+    margin: 36px 51px 30px 49px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #252525;
+}
+
+.first_descr_10s {
+    margin: 30px 0 24.5px;
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    text-align: center;
+    color: #299cbd;
+}
+
+.first_descr_faster {
+    margin: 24.5px 2px 0 0;
+    font-family: Roboto;
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.87;
+    letter-spacing: normal;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+.first_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 342px;
+    height: 201px;
+    background-color: #b4e2ff;
+}
+
+
+.footer {
+    padding: 57px 757px 69px 758px;
+    background-color: #1a1a1a;
+}
+
+.footer_wrapper {
+    width: 400px;
+}
+
+ .footer_text {
+    font-family: Roboto;
+    font-size: 15px;
+    text-decoration: underline;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #888;
+ }
+
+.footer_text_politic {
+    margin-left: 200px;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    text-align: center;
+    color: #888;
+}
