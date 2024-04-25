@@ -1,171 +1,5 @@
 
-@media screen and (max-width: 767px) {
-    
-    .container {
-        position: relative;
-        width: 90%; /* Ширина контейнера на мобильных устройствах */
-        margin: 0 auto;
-    }
 
-    .promo {
-        height: auto; /* Автоматическая высота блока promo */
-        background: url('img/bg/main_bg.jpg') center center/cover no-repeat;
-        padding: 20px 0; /* Уменьшаем вертикальные отступы */
-    }
-
-    .promo .promo_text {
-        font-size: 16px; /* Уменьшаем размер шрифта текста promo */
-        padding: 0 13px;
-        margin-top: 23px;
-        color: #ffffff;
-        font-weight: 300;
-        line-height: 28px;
-        font-family: "Roboto Light";
-        font-weight: 300;
-        text-align: center;
-    }
-
-    .waiting_header, .finish_header {
-        margin-left: 0; /* Центрирование заголовков */
-        text-align: center; /* Центрирование текста заголовков */
-    }
-
-    .waiting_divider, .finish_divider {
-        margin-left: auto; /* Центрирование разделителей */
-        margin-right: auto;
-    }
-
-    .waiting_subheader {
-        margin-left: 0; /* Центрирование подзаголовка */
-        margin-top: 17px;
-        color:#4a4a4a;
-        font-family: Roboto;
-        font-size: 23px;
-        font-weight: 20px;
-        text-align: center; /* Центрирование текста подзаголовка */
-    }
-
-    .waiting_wrapper {
-        flex-direction: column; /* Изменение направления элементов */
-        align-items: center; /* Выравнивание по центру */
-        display: flex;
-        justify-content: space-between;
-        margin-top: 45px;
-    }
-
-    .waiting_item {
-        width: 90%; /* Ширина элементов списка */
-        margin-bottom: 30px; /* Добавление отступов между элементами */
-        text-align: center;
-    }
-
-    .waiting_img {
-        width: 100%; /* Ширина изображений */
-    }
-
-    .waiting_descr {
-        margin-top: 15px; /* Уменьшение отступа сверху для описания */
-        color: #4a4a4a;
-        font-family: Roboto;
-        font-size: 15px;
-        font-weight: 300;
-        line-height: 21px;
-    }
-
-    .finish_wrapper {
-        flex-wrap: wrap; /* Обертывание элементов при необходимости */
-        margin: 41px;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .finish_item {
-        width: 45%; /* Ширина элементов списка */
-        margin-bottom: 30px; /* Добавление отступов между элементами */
-    }
-
-    .finish_round {
-        width: 80px; /* Размеры кругов с иконками */
-        height: 80px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        background-color: #b4e2ff;
-        border-radius: 100%;
-    }
-
-    .finish_descr {
-        margin-top: 15px; /* Уменьшение отступа сверху для описания */
-        text-align: center;
-        color: #efefef;
-        font-family: Roboto;
-        font-size: 17px;
-        font-weight: 300;
-        line-height: 20px;
-    }
-
-    .gift {
-        padding: 50px 0; /* Уменьшение вертикальных отступов */
-        background-color: #efefef;
-    }
-
-    .Rectangle {
-        margin: 30px auto; /* Центрирование элемента */
-        width: 154px;
-        height: 174px;
-    }
-
-    .gift_text {
-        font-size: 16px; /* Уменьшение размера шрифта */
-        width: 1161px;
-        height: 113px;
-        margin: 45px 0 51px;
-        font-family: Roboto;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.43;
-        letter-spacing: normal;
-        text-align: center; /* Центрирование текста */
-        color: #252525;
-    }
-
-    .gift_btn {
-        margin-top: 30px; /* Увеличение отступа сверху для кнопки */
-        display: block;
-        width: 313px;
-        height: 72px;
-        box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
-        border: 4px solid rgba(0, 0, 0, 0.23);
-        background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
-        color: #ffffff;
-        font-family: Roboto Condensed;
-        font-size: 21px;
-        font-weight: 400;
-        line-height: 24px;
-        text-transform: uppercase;
-        cursor: pointer;
-        outline: none;
-    }
-
-    .first_item {
-        text-align: center; /* Центрирование элемента */
-    }
-
-    .first_descr_10s {
-        margin-top: 10px; /* Уменьшение отступа сверху для текста */
-        font-family: Roboto;
-        font-size: 36px;
-        font-weight: 900;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1;
-        letter-spacing: normal;
-        text-align: center;
-        color: #299cbd;
-    }
-}
 
 /* Остальные стили для компьютеров и других устройств */
 
@@ -212,7 +46,6 @@ h1 {
     font-family: "Roboto - Black";
     font-size: 41px;
     font-weight: 400;
-    line-height: 24px;
     text-transform: uppercase;
     text-align: center;   
 }
@@ -364,12 +197,12 @@ h2.title {
 }
 
 .optimization {
-    min-height: 550px;
+    min-height: 850px;
     padding: 102px 0 107px 0;
 }
 
 .optimization .optimization_header {
-    margin-left: 391px;
+    
     color: #299cbd;
     font-family: "Roboto - Black";
     font-size: 29px;
@@ -379,7 +212,7 @@ h2.title {
 
 .optimization .optimization_text {
     margin-top: 25px;
-    margin-left: 391px;
+   
     color: #4a4a4a;
     font-size: 17px;
     font-weight: 300;
@@ -393,11 +226,21 @@ h2.title {
     font-weight: 700;
 }
 
+.optimization {
+    position: relative;
+}
+
 .optimization .optimization_img {
-    position: absolute;
-    top: 54px;
+   
     left: -240px;
     z-index: -1;
+    position: absolute;
+}
+
+.optimization_blocks {
+    position: absolute;
+    top: 61px;
+    left: 400px;
 }
 
 .finish {
@@ -449,7 +292,7 @@ h2.title {
 }
 
 .gift_text {
-    width: 1161px;
+    
     height: 113px;
     margin: 45px 0 51px;
     font-family: Roboto;
@@ -538,7 +381,8 @@ h2.title {
 
 
 .footer {
-    padding: 57px 757px 69px 758px;
+    display: flex;
+    justify-content: center;
     background-color: #1a1a1a;
 }
 
@@ -570,4 +414,221 @@ h2.title {
     letter-spacing: normal;
     text-align: center;
     color: #888;
+}
+
+
+@media screen and (max-width: 767px) {
+    
+    .container {
+        position: relative;
+        width: 90%; /* Ширина контейнера на мобильных устройствах */
+        margin: 0 auto;
+    }
+
+    .title {
+        color: #f9bf3b;
+        font-family: "Roboto - Black";
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;   
+    }
+
+    .promo {
+        height: auto; /* Автоматическая высота блока promo */
+        background: url('img/bg/main_bg.jpg') center center/cover no-repeat;
+        padding: 20px 0; /* Уменьшаем вертикальные отступы */
+    }
+
+    .promo .promo_text {
+        font-size: 16px; /* Уменьшаем размер шрифта текста promo */
+        padding: 0 13px;
+        margin-top: 23px;
+        color: #ffffff;
+        font-weight: 300;
+        line-height: 28px;
+        font-family: "Roboto Light";
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .waiting_header, .finish_header {
+        margin-left: 0; /* Центрирование заголовков */
+        text-align: center; /* Центрирование текста заголовков */
+    }
+
+    .waiting_divider, .finish_divider {
+        margin-left: auto; /* Центрирование разделителей */
+        margin-right: auto;
+    }
+
+    .waiting_subheader {
+        margin-left: 0; /* Центрирование подзаголовка */
+        margin-top: 17px;
+        color:#4a4a4a;
+        font-family: Roboto;
+        font-size: 23px;
+        font-weight: 20px;
+        text-align: center; /* Центрирование текста подзаголовка */
+    }
+
+    .waiting_wrapper {
+        flex-direction: column; /* Изменение направления элементов */
+        align-items: center; /* Выравнивание по центру */
+        display: flex;
+        justify-content: space-between;
+        margin-top: 45px;
+    }
+
+    .waiting_item {
+        width: 90%; /* Ширина элементов списка */
+        margin-bottom: 30px; /* Добавление отступов между элементами */
+        text-align: center;
+    }
+
+    .waiting_img {
+        width: 100%; /* Ширина изображений */
+    }
+
+    .waiting_descr {
+        margin-top: 15px; /* Уменьшение отступа сверху для описания */
+        color: #4a4a4a;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 21px;
+    }
+
+    .optimization .optimization_text {
+        position: absolute;
+        margin-top: 25px;
+       
+        color: #4a4a4a;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 27px;
+        font-family: "Roboto - Light";
+        font-weight: 300;
+    }
+
+    .optimization .optimization_img {
+        position: static;
+        width: 100%;
+        top: 54px;
+        left: -240px;
+        z-index: -1;
+    }
+
+    .optimization {
+        min-height: 1100px;
+        padding: 102px 0 107px 0;
+    }
+
+    .finish_wrapper {
+        flex-wrap: wrap; /* Обертывание элементов при необходимости */
+        margin: 41px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .finish_item {
+        width: 45%; /* Ширина элементов списка */
+        margin-bottom: 30px; /* Добавление отступов между элементами */
+    }
+
+    .finish_round {
+        width: 80px; /* Размеры кругов с иконками */
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        background-color: #b4e2ff;
+        border-radius: 100%;
+    }
+
+    .finish_descr {
+        margin-top: 15px; /* Уменьшение отступа сверху для описания */
+        text-align: center;
+        color: #efefef;
+        font-family: Roboto;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 20px;
+    }
+
+    .optimization .optimization_text {
+        margin-top: 25px;
+        
+        color: #4a4a4a;
+        font-size: 17px;
+        font-weight: 300;
+        line-height: 27px;
+        font-family: "Roboto - Light";
+        font-weight: 300;
+    }
+
+    .optimization_blocks {
+        position: static;
+    }
+
+    .gift {
+        padding: 50px 0; /* Уменьшение вертикальных отступов */
+        background-color: #efefef;
+    }
+
+    .Rectangle {
+        margin: 30px auto; /* Центрирование элемента */
+        width: 154px;
+        height: 174px;
+    }
+
+    .gift_text {
+        font-size: 16px; /* Уменьшение размера шрифта */
+       
+        height: 113px;
+        margin: 45px 0 51px;
+        font-family: Roboto;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.43;
+        letter-spacing: normal;
+        text-align: center; /* Центрирование текста */
+        color: #252525;
+    }
+
+    .gift_btn {
+        margin-top: 30px; /* Увеличение отступа сверху для кнопки */
+        display: block;
+        width: 313px;
+        height: 72px;
+        box-shadow: inset 0 0 0 rgba(0, 0, 0, 0.18);
+        border: 4px solid rgba(0, 0, 0, 0.23);
+        background-image: linear-gradient(to top, #2798b9 0%, #3ab6da 100%);
+        color: #ffffff;
+        font-family: Roboto Condensed;
+        font-size: 21px;
+        font-weight: 400;
+        line-height: 24px;
+        text-transform: uppercase;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .first_item {
+        text-align: center; /* Центрирование элемента */
+    }
+
+    .first_descr_10s {
+        margin-top: 10px; /* Уменьшение отступа сверху для текста */
+        font-family: Roboto;
+        font-size: 36px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: center;
+        color: #299cbd;
+    }
 }
