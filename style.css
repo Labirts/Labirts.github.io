@@ -102,7 +102,7 @@ h2.title {
 }
 
 .more {
-    margin-top: 73px;
+    margin-top: 43px;
 }
 
 .more .more_text {
@@ -286,13 +286,13 @@ h2.title {
 }
 
 .Rectangle {
-    width: 154px;
-    height: 174px;
-    margin: 88px 503px 45px 504px;
+    display: flex;
+    justify-content: center;
 }
 
 .gift_text {
-    
+    display: flex;
+    justify-content: center;
     height: 113px;
     margin: 45px 0 51px;
     font-family: Roboto;
@@ -384,6 +384,7 @@ h2.title {
     display: flex;
     justify-content: center;
     background-color: #1a1a1a;
+    padding: 66px;
 }
 
 .footer_wrapper {
